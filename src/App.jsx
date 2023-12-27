@@ -1,12 +1,15 @@
 import { useState } from 'react';
 import './App.css';
+import Login from './pages/Login';
+import Navbar from './components/Navbar';
+import ChatRoom from './pages/ChatRoom';
 
 function App() {
   return (
     <div>
-        <h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
+        <Navbar />
+        {/* <Login /> */}
+        <ChatRoom />
     </div>
   )
 }
