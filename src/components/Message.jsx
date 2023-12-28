@@ -9,7 +9,7 @@ export default function Message({ message }) {
                         <img alt="Img" src="" />
                     </div>
                 </div>
-                <div className="chat-header">{message.name}</div>
+                <div className="chat-header">{message.displayName}</div>
                 <div className="chat-bubble">{message.text}</div>
             </div>
         </div>
