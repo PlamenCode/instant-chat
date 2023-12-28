@@ -1,7 +1,12 @@
 import React from 'react'
+import ChatBox from '../components/ChatBox'
+import SendMessage from '../components/SendMessage'
 
 export default function ChatRoom() {
   return (
-    <div>ChatRoom</div>
+    <div>
+        <ChatBox />
+        <SendMessage />
+    </div>
   )
 }
